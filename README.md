@@ -1,7 +1,6 @@
 # 🧭 ReferralRadar: Professional Network Graph
 
 **🌟 Live Demo:** [https://referralradar-wexa-5evk.onrender.com](https://referralradar-wexa-5evk.onrender.com)  
-**📹 Video Walkthrough:** [Insert your YouTube/Drive Link Here]
 
 ## The Use Case
 ReferralRadar is a full-stack professional networking and talent-matching application. It empowers users to find warm introductions to target companies by traversing their network of connections (1st, 2nd, and 3rd-degree connections).
