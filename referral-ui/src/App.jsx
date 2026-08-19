@@ -16,8 +16,7 @@ function App() {
     setHasSearched(true)
 
     try {
-      const response = await fetch(`http://localhost:8080/api/referral-path?myName=${encodeURIComponent(myName)}&targetCompany=${encodeURIComponent(targetCompany)}`)
-
+const response = await fetch(`https://referralradar-wexa.onrender.com/api/referral-path?myName=${encodeURIComponent(myName)}&targetCompany=${encodeURIComponent(targetCompany)}`)
       if (!response.ok) {
         throw new Error('Database is currently unreachable.')
       }
