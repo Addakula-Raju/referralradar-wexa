@@ -15,7 +15,7 @@ public class ReferralController implements AutoCloseable {
 
     public ReferralController() {
         // Reads from .env file to satisfy the security requirement
-        Dotenv dotenv = Dotenv.load();
+        Dotenv dotenv = Dotenv.configure().ignoreIfMissing().load();
         this.driver = GraphDatabase.driver(
                 dotenv.get("COGNODB_URI"),
                 AuthTokens.basic(dotenv.get("COGNODB_USER"), dotenv.get("COGNODB_PASSWORD"))
